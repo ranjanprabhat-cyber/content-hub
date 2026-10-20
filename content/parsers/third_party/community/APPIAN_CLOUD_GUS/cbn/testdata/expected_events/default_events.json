@@ -53,7 +53,7 @@
     },
     {
       "event": {
-        "timestamp": "2024-10-12T10:00:00.123456789Z",
+        "timestamp": "2024-10-12T10:01:00.123456789Z",
         "idm": {
           "readOnlyUdm": {
             "additional": {
@@ -65,7 +65,7 @@
               }
             ],
             "metadata": {
-              "eventTimestamp": "2024-10-12T10:00:00.123456789Z",
+              "eventTimestamp": "2024-10-12T10:01:00.123456789Z",
               "eventType": "STATUS_UPDATE",
               "logType": "APPIAN_CLOUD",
               "productEventType": "login-audit",
@@ -97,7 +97,7 @@
     },
     {
       "event": {
-        "timestamp": "2024-10-12T10:00:00.123456789Z",
+        "timestamp": "2024-10-12T10:02:00.123456789Z",
         "idm": {
           "readOnlyUdm": {
             "additional": {
@@ -113,7 +113,7 @@
               }
             ],
             "metadata": {
-              "eventTimestamp": "2024-10-12T10:00:00.123456789Z",
+              "eventTimestamp": "2024-10-12T10:02:00.123456789Z",
               "eventType": "USER_LOGIN",
               "logType": "APPIAN_CLOUD",
               "productEventType": "authz-audit",
@@ -174,15 +174,16 @@
     },
     {
       "event": {
-        "timestamp": "2024-10-12T10:00:00.123456789Z",
+        "timestamp": "2024-10-12T10:03:00.123456789Z",
         "idm": {
           "readOnlyUdm": {
             "additional": {
+              "devicetimestamp": "2024-10-12 16:17:17",
               "syslog_severity": "5"
             },
             "metadata": {
-              "eventTimestamp": "2024-10-12T10:00:00.123456789Z",
-              "eventType": "STATUS_UPDATE",
+              "eventTimestamp": "2024-10-12T10:03:00.123456789Z",
+              "eventType": "USER_UNCATEGORIZED",
               "logType": "APPIAN_CLOUD",
               "productEventType": "authz-audit",
               "productName": "Cloud Platform",
@@ -192,7 +193,23 @@
               "asset": {
                 "hostname": "app-05.dummy.net"
               },
-              "hostname": "app-05.dummy.net"
+              "hostname": "app-05.dummy.net",
+              "user": {
+                "userid": "dummy_analyst_05"
+              }
+            },
+            "securityResult": [
+              {
+                "actionDetails": "synth_setting_new_value_05"
+              }
+            ],
+            "target": {
+              "process": {
+                "commandLine": "synth_property_05"
+              },
+              "resource": {
+                "name": "synth_setting_old_value_05"
+              }
             }
           }
         }
@@ -200,7 +217,7 @@
     },
     {
       "event": {
-        "timestamp": "2024-10-12T10:00:00.123456789Z",
+        "timestamp": "2024-10-12T10:04:00.123456789Z",
         "idm": {
           "readOnlyUdm": {
             "additional": {
@@ -208,7 +225,7 @@
               "syslog_severity": "5"
             },
             "metadata": {
-              "eventTimestamp": "2024-10-12T10:00:00.123456789Z",
+              "eventTimestamp": "2024-10-12T10:04:00.123456789Z",
               "eventType": "USER_UNCATEGORIZED",
               "logType": "APPIAN_CLOUD",
               "productEventType": "authz-audit",
@@ -243,7 +260,7 @@
     },
     {
       "event": {
-        "timestamp": "2024-10-12T10:00:00.123456789Z",
+        "timestamp": "2024-10-12T10:05:00.123456789Z",
         "idm": {
           "readOnlyUdm": {
             "additional": {
@@ -251,7 +268,7 @@
               "syslog_severity": "5"
             },
             "metadata": {
-              "eventTimestamp": "2024-10-12T10:00:00.123456789Z",
+              "eventTimestamp": "2024-10-12T10:05:00.123456789Z",
               "eventType": "USER_UNCATEGORIZED",
               "logType": "APPIAN_CLOUD",
               "productEventType": "authz-audit",
@@ -286,14 +303,14 @@
     },
     {
       "event": {
-        "timestamp": "2024-10-12T10:00:00.123456789Z",
+        "timestamp": "2024-10-12T10:06:00.123456789Z",
         "idm": {
           "readOnlyUdm": {
             "additional": {
               "syslog_severity": "5"
             },
             "metadata": {
-              "eventTimestamp": "2024-10-12T10:00:00.123456789Z",
+              "eventTimestamp": "2024-10-12T10:06:00.123456789Z",
               "eventType": "STATUS_UPDATE",
               "logType": "APPIAN_CLOUD",
               "productEventType": "authz-audit",
@@ -365,11 +382,10 @@
     },
     {
       "event": {
-        "timestamp": "2024-10-12T10:00:00.123456789Z",
+        "timestamp": "2024-10-12T10:08:00.123456789Z",
         "idm": {
           "readOnlyUdm": {
             "additional": {
-              "devicetimestamp": "2024-10-12 12:13:01",
               "syslog_severity": "5"
             },
             "intermediary": [
@@ -378,7 +394,7 @@
               }
             ],
             "metadata": {
-              "eventTimestamp": "2024-10-12T10:00:00.123456789Z",
+              "eventTimestamp": "2024-10-12T10:08:00.123456789Z",
               "eventType": "USER_UNCATEGORIZED",
               "logType": "APPIAN_CLOUD",
               "productEventType": "authz-audit",
@@ -417,10 +433,11 @@
     },
     {
       "event": {
-        "timestamp": "2024-10-12T10:00:00.123456789Z",
+        "timestamp": "2024-10-12T10:09:00.123456789Z",
         "idm": {
           "readOnlyUdm": {
             "additional": {
+              "devicetimestamp": "2024-10-12 13:20:14",
               "syslog_severity": "5"
             },
             "intermediary": [
@@ -429,7 +446,7 @@
               }
             ],
             "metadata": {
-              "eventTimestamp": "2024-10-12T10:00:00.123456789Z",
+              "eventTimestamp": "2024-10-12T10:09:00.123456789Z",
               "eventType": "STATUS_UPDATE",
               "logType": "APPIAN_CLOUD",
               "productEventType": "login-audit",
@@ -441,7 +458,10 @@
                 "hostname": "gw-edge-02.dummy.net"
               },
               "hostname": "gw-edge-02.dummy.net",
-              "url": "synth_url_02"
+              "url": "synth_url_02",
+              "user": {
+                "userid": "synth_desc_02(UUID:dummy_admin_02) dummy_val_02 URL (synth_url_02).synth_msg_02"
+              }
             },
             "securityResult": [
               {
@@ -461,7 +481,7 @@
     },
     {
       "event": {
-        "timestamp": "2024-10-12T10:00:00.123456789Z",
+        "timestamp": "2024-10-12T10:10:00.123456789Z",
         "idm": {
           "readOnlyUdm": {
             "additional": {
@@ -477,7 +497,7 @@
               }
             ],
             "metadata": {
-              "eventTimestamp": "2024-10-12T10:00:00.123456789Z",
+              "eventTimestamp": "2024-10-12T10:10:00.123456789Z",
               "eventType": "USER_LOGIN",
               "logType": "APPIAN_CLOUD",
               "productEventType": "authz-audit",
@@ -538,15 +558,15 @@
     },
     {
       "event": {
-        "timestamp": "2024-10-12T10:00:00.123456789Z",
+        "timestamp": "2024-10-12T10:11:00.123456789Z",
         "idm": {
           "readOnlyUdm": {
             "additional": {
               "syslog_severity": "5"
             },
             "metadata": {
-              "eventTimestamp": "2024-10-12T10:00:00.123456789Z",
-              "eventType": "STATUS_UPDATE",
+              "eventTimestamp": "2024-10-12T10:11:00.123456789Z",
+              "eventType": "USER_UNCATEGORIZED",
               "logType": "APPIAN_CLOUD",
               "productEventType": "authz-audit",
               "productName": "Cloud Platform",
@@ -556,7 +576,10 @@
               "asset": {
                 "hostname": "app-05.dummy.net"
               },
-              "hostname": "app-05.dummy.net"
+              "hostname": "app-05.dummy.net",
+              "user": {
+                "userid": "dummy_analyst_05"
+              }
             },
             "securityResult": [
               {
@@ -564,6 +587,9 @@
               }
             ],
             "target": {
+              "process": {
+                "commandLine": "synth_property_05"
+              },
               "resource": {
                 "name": "synth_setting_old_value_05"
               }
