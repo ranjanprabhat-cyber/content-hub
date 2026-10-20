@@ -51,7 +51,27 @@
               {
                 "summary": "Updated"
               }
-            ]
+            ],
+            "target": {
+              "resource": {
+                "attribute": {
+                  "labels": [
+                    {
+                      "key": "NewValue[1]",
+                      "value": "RemoveRequested"
+                    },
+                    {
+                      "key": "OldValue[1]",
+                      "value": "Frozen"
+                    },
+                    {
+                      "key": "PropertyName[1]",
+                      "value": "FreezeStatus"
+                    }
+                  ]
+                }
+              }
+            }
           }
         }
       }
@@ -152,7 +172,27 @@
               {
                 "summary": "Requested"
               }
-            ]
+            ],
+            "target": {
+              "resource": {
+                "attribute": {
+                  "labels": [
+                    {
+                      "key": "NewValue",
+                      "value": "ExcludeMissingDevices"
+                    },
+                    {
+                      "key": "OldValue",
+                      "value": "None"
+                    },
+                    {
+                      "key": "PropertyName",
+                      "value": "UnenrollSetting"
+                    }
+                  ]
+                }
+              }
+            }
           }
         }
       }

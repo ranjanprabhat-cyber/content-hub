@@ -17,9 +17,15 @@
             },
             "principal": {
               "asset": {
-                "hostname": "host-01.dummy.net"
+                "hostname": "host-01.dummy.net",
+                "mac": [
+                  "00:00:5e:00:53:55"
+                ]
               },
-              "hostname": "host-01.dummy.net"
+              "hostname": "host-01.dummy.net",
+              "mac": [
+                "00:00:5e:00:53:55"
+              ]
             }
           }
         }
@@ -68,9 +74,15 @@
             },
             "principal": {
               "asset": {
-                "hostname": "auth-srv-03.dummy.net"
+                "hostname": "auth-srv-03.dummy.net",
+                "mac": [
+                  "00:00:5e:00:53:57"
+                ]
               },
               "hostname": "auth-srv-03.dummy.net",
+              "mac": [
+                "00:00:5e:00:53:57"
+              ],
               "process": {
                 "pid": "3"
               }
@@ -175,9 +187,15 @@
             },
             "principal": {
               "asset": {
-                "hostname": "host-01.dummy.net"
+                "hostname": "host-01.dummy.net",
+                "mac": [
+                  "00:00:5e:00:53:60"
+                ]
               },
               "hostname": "host-01.dummy.net",
+              "mac": [
+                "00:00:5e:00:53:60"
+              ],
               "port": 15,
               "process": {
                 "pid": "synth_pid_06"
@@ -595,9 +613,15 @@
             },
             "principal": {
               "asset": {
-                "hostname": "host-01.dummy.net"
+                "hostname": "host-01.dummy.net",
+                "mac": [
+                  "00:00:5e:00:53:65"
+                ]
               },
-              "hostname": "host-01.dummy.net"
+              "hostname": "host-01.dummy.net",
+              "mac": [
+                "00:00:5e:00:53:65"
+              ]
             }
           }
         }
