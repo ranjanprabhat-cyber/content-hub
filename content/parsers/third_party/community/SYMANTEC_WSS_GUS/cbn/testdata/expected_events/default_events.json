@@ -41,9 +41,6 @@
               "applicationProtocolVersion": "synth_cs_version_01",
               "http": {
                 "method": "synth_method_01",
-                "parsedUserAgent": {
-                  "family": "USER_DEFINED"
-                },
                 "responseCode": 1001,
                 "userAgent": "dummy_user_01"
               },
@@ -235,9 +232,6 @@
               "applicationProtocolVersion": "synth_cs_version_02",
               "http": {
                 "method": "synth_method_02",
-                "parsedUserAgent": {
-                  "family": "USER_DEFINED"
-                },
                 "responseCode": 1002,
                 "userAgent": "dummy_admin_02"
               },
@@ -425,9 +419,6 @@
               "applicationProtocolVersion": "synth_cs_version_03",
               "http": {
                 "method": "synth_method_03",
-                "parsedUserAgent": {
-                  "family": "USER_DEFINED"
-                },
                 "responseCode": 1003,
                 "userAgent": "dummy_svc_03"
               },
@@ -619,9 +610,6 @@
               "applicationProtocolVersion": "synth_cs_version_04",
               "http": {
                 "method": "synth_method_04",
-                "parsedUserAgent": {
-                  "family": "USER_DEFINED"
-                },
                 "responseCode": 1004,
                 "userAgent": "dummy_auditor_04"
               },
@@ -809,9 +797,6 @@
               "applicationProtocolVersion": "synth_cs_version_05",
               "http": {
                 "method": "synth_method_05",
-                "parsedUserAgent": {
-                  "family": "USER_DEFINED"
-                },
                 "responseCode": 1005,
                 "userAgent": "dummy_analyst_05"
               },
@@ -1002,9 +987,6 @@
               "applicationProtocolVersion": "synth_cs_version_06",
               "http": {
                 "method": "synth_method_06",
-                "parsedUserAgent": {
-                  "family": "USER_DEFINED"
-                },
                 "responseCode": 1006,
                 "userAgent": "dummy_user_01"
               },
@@ -1193,9 +1175,6 @@
               "applicationProtocolVersion": "synth_cs_version_07",
               "http": {
                 "method": "synth_method_07",
-                "parsedUserAgent": {
-                  "family": "USER_DEFINED"
-                },
                 "responseCode": 1007,
                 "userAgent": "dummy_admin_02"
               },
@@ -1387,9 +1366,6 @@
               "applicationProtocolVersion": "synth_cs_version_08",
               "http": {
                 "method": "synth_method_08",
-                "parsedUserAgent": {
-                  "family": "USER_DEFINED"
-                },
                 "responseCode": 1008,
                 "userAgent": "dummy_svc_03"
               },
@@ -1577,9 +1553,6 @@
               "applicationProtocolVersion": "synth_cs_version_09",
               "http": {
                 "method": "synth_method_09",
-                "parsedUserAgent": {
-                  "family": "USER_DEFINED"
-                },
                 "responseCode": 1009,
                 "userAgent": "dummy_auditor_04"
               },
@@ -1771,9 +1744,6 @@
               "applicationProtocolVersion": "synth_cs_version_010",
               "http": {
                 "method": "synth_method_010",
-                "parsedUserAgent": {
-                  "family": "USER_DEFINED"
-                },
                 "responseCode": 1010,
                 "userAgent": "dummy_analyst_05"
               },
@@ -1923,21 +1893,14 @@
     },
     {
       "event": {
-        "timestamp": "2024-10-12T10:00:00.123456789Z",
+        "timestamp": "2024-10-12T10:01:00.123456789Z",
         "idm": {
           "readOnlyUdm": {
             "metadata": {
-              "eventTimestamp": "2024-10-12T10:00:00.123456789Z",
+              "eventTimestamp": "2024-10-12T10:01:00.123456789Z",
               "eventType": "GENERIC_EVENT",
               "logType": "SYMANTEC_WSS",
               "vendorName": "SYMANTEC"
-            },
-            "network": {
-              "http": {
-                "parsedUserAgent": {
-                  "family": "USER_DEFINED"
-                }
-              }
             }
           }
         }
@@ -1945,21 +1908,14 @@
     },
     {
       "event": {
-        "timestamp": "2024-10-12T10:00:00.123456789Z",
+        "timestamp": "2024-10-12T10:01:00.123456789Z",
         "idm": {
           "readOnlyUdm": {
             "metadata": {
-              "eventTimestamp": "2024-10-12T10:00:00.123456789Z",
+              "eventTimestamp": "2024-10-12T10:01:00.123456789Z",
               "eventType": "GENERIC_EVENT",
               "logType": "SYMANTEC_WSS",
               "vendorName": "SYMANTEC"
-            },
-            "network": {
-              "http": {
-                "parsedUserAgent": {
-                  "family": "USER_DEFINED"
-                }
-              }
             }
           }
         }
